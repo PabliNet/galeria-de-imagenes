@@ -1,0 +1,44 @@
+:root {
+  scrollbar: {
+    color: var(--text-color) transparent !important;
+  }
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  background: {
+    color: var(--bg);
+  }
+  color: var(--text-color);
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border: {
+    style: solid;
+    width: 2px;
+    color: var(--bg);
+    radius: 10px;
+  }
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: gray; 
+}
+
+@import 'galeria';

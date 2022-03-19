@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería de imágenes</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div style="display: none;" id="none"></div>
+    <div class="precarga">
+        <div class="icono-preload cargado" id="cargando">Cargando…</div>
+    </div>
+    <h1>Galería de imágenes</h1>
+    <div class="galeria">
+      <div class="img"><img src="fotos/thumbs/foto0.jpg" alt="Foto 0" data-text="Descripción 0" /></div>
+      <div class="img"><img src="fotos/thumbs/foto1.jpg" alt="Foto 1" data-text="Descripción 1" /></div>
+      <div class="img"><img src="fotos/thumbs/foto2.jpg" alt="Foto 2" data-text="Descripción 2" /></div>
+      <div class="img"><img src="fotos/thumbs/foto3.jpg" alt="Foto 3" data-text="Descripción 3" /></div>
+      <div class="img"><img src="fotos/thumbs/foto4.jpg" alt="Foto 4" data-text="Descripción 4" /></div>
+      <div class="img"><img src="fotos/thumbs/foto5.jpg" alt="Foto 5" data-text="Descripción 5" /></div>
+      <div class="img"><img src="fotos/thumbs/foto6.jpg" alt="Foto 6" data-text="Descripción 6" /></div>
+      <div class="img"><img src="fotos/thumbs/foto7.jpg" alt="Foto 7" data-text="Descripción 7" /></div>
+      <div class="img"><img src="fotos/thumbs/foto8.jpg" alt="Foto 8" data-text="Descripción 8" /></div>
+      <div class="img"><img src="fotos/thumbs/foto9.jpg" alt="Foto 9" data-text="Descripción 9" /></div>
+    </div>
+    <div id="img-fondo">
+      <div class="img" id="prev"></div>
+      <div class="img" id="next"></div>
+      <div class="img" id="cerrar">Cerrar</div>
+      <img src=""id="img-grande" />
+      <div id="img-copete"></div>
+    </div>
+    <script src="/js/fotos.js"></script>
+    <script src="/js/globlal.js"></script>
+  </body>
+</html>
